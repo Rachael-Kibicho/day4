@@ -1,0 +1,119 @@
+body {
+    margin: 10px 20px 0px 0px;
+    display: flex;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: hsl(0, 0%, 98%);
+
+
+}
+
+.drop-list{
+    visibility: hidden;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+p {
+    color: hsl(0, 0%, 41%);
+    width:400px;
+}
+
+
+#logo {
+    height: 30px;
+    width: 90px;
+    margin: 4px 20px;
+
+}
+
+.logos{
+    padding:260px 0px;
+    display: flex;
+    justify-content: space-between;  
+    height:20px;  
+}
+
+.hero {
+    margin: 80px 100px;
+}
+
+#hero {
+    height: 500px;
+    width: 400px;
+}
+
+nav {
+    font-family: inherit;
+    margin: 0px;
+}
+
+nav,
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-section{
+    height:800px;
+    width:400px;
+}
+
+.main-words{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:start;
+    height:300px;
+    width:300px;
+}
+
+
+#register-btn, .other-btns {
+    padding: 10px 30px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    border:none;
+    color: hsl(0, 0%, 41%);
+    font-family: inherit;
+}
+
+#learn-btn{
+    background-color: black;
+    color: hsl(0, 0%, 98%);    
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:none;
+    font-family: inherit;
+}
+
+#register-btn{
+    border:2px solid ghsl(0, 0%, 41%);
+}
+
+.other-btns{
+
+}
+
+.other-btns:hover {
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+#register-btn:hover, #learn-btn:hover{
+    border: 2px solid hsl(0, 0%, 8%);
+    background-color:  hsl(0, 0%, 98%);
+    color:hsl(0, 0%, 8%);
+    font-weight: 400;
+    cursor: pointer;
+
+}
